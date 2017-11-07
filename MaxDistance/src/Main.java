@@ -19,7 +19,6 @@ public class Main {
                 max = Math.max(max, maxTemp);
             }
         }
-
         return max;
     }
 

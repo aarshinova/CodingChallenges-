@@ -7,7 +7,7 @@ public class Test {
         testRecursive();
 
         // test array method (non recursive)
-       testArray();
+        testArray();
     }
 
 

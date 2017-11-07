@@ -2,7 +2,7 @@ public class Solution {
 
     public static void main(String[] args) {
         //int[] arr = new int[]{23, 45, 23, 57} ;
-     //   int[] arr = new int[]{26, 52, 23, 30, 28, 50, 13, 10, 25};
+        //   int[] arr = new int[]{26, 52, 23, 30, 28, 50, 13, 10, 25};
         //int[] arr ={1,1,1};
         int[] arr = {8, 7, 6, 4};
         int max = 0;

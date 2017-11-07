@@ -38,15 +38,15 @@ public class Main {
         //int[] array = new int[max-min+1];
 
         for (int i=min;i<=max; i++){
-           if (setIn.containsKey(i)){
-               K= K - setIn.get(i);
-           }
-           if (setOut.containsKey(i)){
-               K=K+setOut.get(i);
-           }
+            if (setIn.containsKey(i)){
+                K= K - setIn.get(i);
+            }
+            if (setOut.containsKey(i)){
+                K=K+setOut.get(i);
+            }
 
-           if (K<0)
-               return false;
+            if (K<0)
+                return false;
 
         }
 

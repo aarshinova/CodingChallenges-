@@ -5,20 +5,13 @@ public class Test {
     }
 
     public static void test1(int[] arr, int res){
-        //given
-        // arr
-
         // when
         int output = Main.solution(arr);
 
         //then
         if (res!=output)
-        System.out.println("Result incorrect, should be " + res + " and not " + output);
+            System.out.println("Result incorrect, should be " + res + " and not " + output);
         else
-            System.out.println(
-                    "The result is correct"
-            );
-
-
+            System.out.println("The result is correct");
     }
 }

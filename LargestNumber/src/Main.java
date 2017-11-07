@@ -8,10 +8,10 @@ public class Main {
         arr.add(12);
         arr.add(121);  //12 121
 
+        // ae
         largestNumber(arr);
 
     }
-
 
     public static String largestNumber(final List<Integer> a) {
 
@@ -22,17 +22,20 @@ public class Main {
             arr.add(""+el);
         }
 
-
-        Collections.sort(arr, (x, y) -> x.compareTo(y));
+        Collections.sort(arr, new Comparator<String>() {
+            @Override
+            public int compare(String o1, String o2) {
+                String xy = o1 + o2;
+                String yx = o2 + o1;
+                return yx.compareTo(xy);
+            }
+        });
 
         for (String val : arr){
             s+=val;
         }
 
         return s;
-
-
     }
-    // abz
-    // adaaa
+
 }

@@ -22,7 +22,6 @@ public class Main {
             return 1;
         }
         int val = recursiveFibonacci(n-1, arr) + recursiveFibonacci(n-2, arr);
-        //System.out.println("add for fib n = " + n);
         arr[n]=val;
         return val;
     }
@@ -34,9 +33,9 @@ public class Main {
             return arr;
         }
         if (n==1) {
-           arr.add(0);
-           arr.add(1);
-           return arr;
+            arr.add(0);
+            arr.add(1);
+            return arr;
         }
 
         arr.add(0);
@@ -45,8 +44,6 @@ public class Main {
         for (int i=2; i<=n; i++){
             arr.add(arr.get(i-1) + arr.get(i-2));
         }
-
-        Integer[]  out = arr.toArray(new Integer[arr.size()]);
         return arr;
     }
 }
