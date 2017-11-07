@@ -38,8 +38,8 @@ public class Main {
         }
         TreeNode node = new TreeNode(h.data);
 
-        node.left = findSorted(head, h);;
-        node.right = findSorted(h.next, tail);;
+        node.left = findSorted(head, h);
+        node.right = findSorted(h.next, tail);
 
         return node;
     }
